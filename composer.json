@@ -1,0 +1,18 @@
+{
+    "name": "ebitkov/update-lock-bundle",
+    "description": "Locks access to a Symfony app while it's updating to prevent errors",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emanuel Bitkov",
+            "email": "emanuel.bitkov@regenta-verlag.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ebitkov\\UpdateLockBundle\\": "./"
+        }
+    }
+}
