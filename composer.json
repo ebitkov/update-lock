@@ -9,10 +9,13 @@
             "email": "emanuel.bitkov@regenta-verlag.de"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.4",
+        "ebitkov/app-lock-composer-plugin": "1.0.0"
+    },
     "autoload": {
         "psr-4": {
-            "ebitkov\\UpdateLockBundle\\": "./"
+            "Ebitkov\\UpdateLockBundle\\": "src"
         }
     }
 }

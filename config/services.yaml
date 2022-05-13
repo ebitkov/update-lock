@@ -1,0 +1,5 @@
+services:
+  Ebitkov\UpdateLockBundle\:
+    resource: '../src/'
+    autoconfigure: true
+    autowire: true

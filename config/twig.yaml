@@ -1,0 +1,3 @@
+twig:
+  paths:
+    '@ebitkov_update_lock': '../templates'
