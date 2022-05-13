@@ -11,11 +11,16 @@
     ],
     "require": {
         "php": ">=7.4",
-        "ebitkov/app-lock-composer-plugin": "1.0.0"
+        "ebitkov/app-lock-composer-plugin": "1.0.1"
     },
     "autoload": {
         "psr-4": {
             "Ebitkov\\UpdateLockBundle\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ebitkov/app-lock-composer-plugin": true
         }
     }
 }
